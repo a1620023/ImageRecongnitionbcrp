@@ -1,0 +1,14 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: ImageRecongnitionbcrp
+  buildpack: java_buildpack
+  path: ./target/ImageRecongnitionbcrp-1.0-SNAPSHOT.jar
+  memory: 1024M
+  domain: mybluemix.net
+  host: SuperApp-bcrp
+  services:
+    - Visual Recognition-bcrp
+    - Visual Recognition-bcrp
+    - Visual Recognition-bcrp
